@@ -1,13 +1,8 @@
 import styled from "styled-components";
 
-export const Aside = styled.aside`
+export const Container = styled.div`
     background-color: #ff0000;
     width: 500px;
     height: 1000px;
-    position: fixed;
-`
-
-export const Container = styled.div`
-    padding: 10px;
 `
 
