@@ -1,11 +1,12 @@
-import { Container } from "react-bootstrap";
-import { HeaderStyled } from "./style";
+import { Aside } from "./style";
+import { Container } from "./style";
+
 
 
 export default function Header() {
     return (
         <>
-            <HeaderStyled>
+            <Aside>
                 <Container>
                     <ul>
                         <li>
@@ -19,7 +20,7 @@ export default function Header() {
                         </li>
                     </ul>
                 </Container>
-            </HeaderStyled>
+            </Aside>
         </>
     )
 }

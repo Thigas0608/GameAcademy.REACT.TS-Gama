@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
-export const HeaderStyled = styled.header`
-    background-color: #fff;
+export const Aside = styled.aside`
+    background-color: #ff0000;
+    width: 500px;
+    height: 1000px;
+    position: fixed;
 `
 
 export const Container = styled.div`
-    width:257px;
-    max-width:100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-`;
+    padding: 10px;
+`
+
