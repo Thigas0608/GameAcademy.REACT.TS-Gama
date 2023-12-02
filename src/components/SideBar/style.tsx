@@ -20,11 +20,17 @@ export const Menu = styled.nav`
     ul{
         list-style: none;
         padding: 0;
+        
 
         li{
             height: 50px;
             width: auto;
             padding: 10px 45px;
+            border: 1px solid #0f0f3e;
+
+            &:hover{
+                background-color: #3030f8;
+            }
 
             svg{
                 padding: 0px 20px 0px 0px;
@@ -39,7 +45,7 @@ export const Menu = styled.nav`
 
                 &:hover{
                     transition: 0.5;
-                    color: #31A6E8;
+                    color: #000000;
                 }
             }
         } 

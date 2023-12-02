@@ -1,7 +1,8 @@
 import { CardGames } from "../../components/CardGames";
-import { Footer } from "../../components/Footer";
 import SideBar from "../../components/SideBar";
-import { ContainerBody, ContainerConteudo, SectionCards, SectionPesquisaTitulo } from "./style";
+import { Footer } from "../../components/Footer";
+import { SectionCards, SectionPesquisaTitulo, ContainerBody, ContainerConteudo } from "./style";
+import { Title } from "../../components/Titles/style";
 
 
 export default function Games() {
@@ -11,11 +12,19 @@ export default function Games() {
                 <SideBar />
                 <ContainerConteudo>
                     <SectionPesquisaTitulo>
-                        <h1>TITULO</h1>
-                        <p>filtro</p>
+                        <Title> JOGOS </Title>
+                        <div>
+                            <input type="text" />
+                        </div>
                     </SectionPesquisaTitulo>
 
                     <SectionCards>
+                        <CardGames />
+                        <CardGames />
+                        <CardGames />
+                        <CardGames />
+                        <CardGames />
+                        <CardGames />
                         <CardGames />
                         <CardGames />
                         <CardGames />

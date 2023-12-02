@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const Container  = styled.footer`
-    width: 100%;
+    width: auto;
     height: 60px;
     background-color: #050033;
     color: #fff;
     font-weight: bold;
     font-size: 18px;
+    margin-left: 25%;
 
     display: flex;
     align-items: center;
