@@ -1,27 +1,20 @@
-import { Link } from "react-router-dom";
-import { Container, Menu } from "./style";
 import Logo from "../../../public/GameAcademyLogo.png";
+import { Container} from "./style";
+import { Link } from "react-router-dom";
 
-export default function Header() {
+export function Header() {
     return (
         <>
             <Container>
-                <img src={Logo} alt="" />
-                <Menu>
-                    <ul>
-                        <li>
-                            <Link to={"/"}>JOGOS</Link>
-                        </li>
-                        <li>
-                            <Link to={"/ranking"}>RANKING</Link>
-                        </li>
-                        <li>
-                            <Link to={"/players"}>JOGADORES</Link>
-                        </li>
-                    </ul>
-                </Menu>
+                <Link to="/">
+                    <img src={Logo} alt="" />
+                </Link>
+                <nav>
+                    <Link to="/">Jogos</Link>
+                    <Link to="/rank">Rank</Link>
+                    <Link to="/perfil">Perfil</Link>
+                </nav>
             </Container>
-
         </>
     )
 }

@@ -1,7 +1,29 @@
+import { CardGames } from "../../components/CardGames";
+import SideBar from "../../components/SideBar";
+import { ContainerBody, ContainerConteudo, SectionCards, SectionPesquisaTitulo } from "./style";
+
+
 export default function Games() {
     return (
         <>
-            <h1>Games</h1>
+            <ContainerBody>
+                <SideBar />
+                <ContainerConteudo>
+                    <SectionPesquisaTitulo>
+                        <h1>TITULO</h1>
+                        <p>filtro</p>
+                    </SectionPesquisaTitulo>
+
+                    <SectionCards>
+                        <CardGames />
+                        <CardGames />
+                        <CardGames />
+                        <CardGames />
+                        <CardGames />
+                        <CardGames />
+                    </SectionCards>
+                </ContainerConteudo>
+            </ContainerBody>
         </>
-    );
+    )
 }
