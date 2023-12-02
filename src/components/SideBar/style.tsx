@@ -36,17 +36,13 @@ export const Menu = styled.nav`
                 font-size: 20px;
                 color: #fff;
                 text-decoration: none;
-            }
-        }
 
-        li:hover{
-            background-color: #120965;
-            transition: 0.5;
-
-            a{
-                color: #31A6E8;
+                &:hover{
+                    transition: 0.5;
+                    color: #31A6E8;
+                }
             }
-        }
+        } 
     }
 `
 

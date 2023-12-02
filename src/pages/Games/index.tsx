@@ -1,4 +1,5 @@
 import { CardGames } from "../../components/CardGames";
+import { Footer } from "../../components/Footer";
 import SideBar from "../../components/SideBar";
 import { ContainerBody, ContainerConteudo, SectionCards, SectionPesquisaTitulo } from "./style";
 
@@ -24,6 +25,7 @@ export default function Games() {
                     </SectionCards>
                 </ContainerConteudo>
             </ContainerBody>
+            <Footer />
         </>
     )
 }
