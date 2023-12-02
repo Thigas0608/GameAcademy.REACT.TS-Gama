@@ -9,8 +9,10 @@ export function CardGames() {
     return (
         <>
             <Container>
-                <img src={imagem[0]} />
-                <Button>Ver mais</Button>
+                <section>
+                    <img src={imagem[0]} />
+                    <Button>Ver mais</Button>
+                </section>
             </Container>
         </>
     )
