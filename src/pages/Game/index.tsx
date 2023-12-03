@@ -21,7 +21,7 @@ interface Game {
   descricao: string;
 }
 
-export default function Teste() {
+export default function Game() {
   const [games, setGames] = useState<Game[]>([]);
 
   useEffect(() => {
@@ -43,20 +43,11 @@ export default function Teste() {
         <SideBar />
         <ContainerConteudo>
           <SectionPesquisaTitulo>
-            <Title> JOGOS </Title>
-            <div>
-              <input type="text" />
-            </div>
+           
           </SectionPesquisaTitulo>
 
           <SectionCards>
-            {games.map((game) => (
-              <CardGamesT
-                key={game.id}
-                imagem={game.imagem}
-                id={game.id}
-              />
-            ))}
+          
           </SectionCards>
         </ContainerConteudo>
       </ContainerBody>
