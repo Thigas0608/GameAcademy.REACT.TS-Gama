@@ -2,17 +2,18 @@ import { Button } from '../Button/style'
 import { Container } from './style'
 
 const imagem = [
-    "https://upload.wikimedia.org/wikipedia/pt/5/50/Black_ops_2_cover.jpg"
+    "https://pbs.twimg.com/media/D3kIXO7W4AsDeB0?format=jpg&name=large"
 ]
 
-export function CardGames() {
+export function CardGameIntern() {
     return (
         <>
             <Container>
                 <section>
                     <img src={imagem[0]} />
-                    <Button>Ver mais</Button>
+                    <p>Pontos:</p>
                 </section>
+                
             </Container>
         </>
     )
