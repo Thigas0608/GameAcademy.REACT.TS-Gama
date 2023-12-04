@@ -1,10 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Games from "./pages/Games";
-import Players from "./pages/Players";
-import Ranking from "./pages/Ranking";
+import RankingGames from "./pages/RankingGames";
 import Teste from "./pages/Teste";
 import Page404 from "./pages/Page404";
 import AboutTheGame from "./pages/AboutTheGame";
+import Profile from "./pages/Profile";
+import RankingPlayers from "./pages/RankingPlayers";
 
 // Configuração das rotas da aplicação
 export default function Routes() {
@@ -14,12 +15,12 @@ export default function Routes() {
       element: <Games />,
     },
     {
-      path: "/ranking",
-      element: <Ranking />,
+      path: "/rankingGames",
+      element: <RankingGames />,
     },
     {
-      path: "/jogadores",
-      element: <Players />,
+      path: "/rankingPlayers",
+      element: <RankingPlayers />,
     },
     {
       path: "/teste",
@@ -32,6 +33,10 @@ export default function Routes() {
     {
       path: "/jogo",
       element: <AboutTheGame />
+    },
+    {
+      path: "/perfil",
+      element: <Profile />
     }
 
   ]);

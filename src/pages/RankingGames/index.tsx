@@ -31,7 +31,7 @@ interface Pontuacao {
   jogo: Jogo;
 }
 
-export default function Ranking() {
+export default function RankingGames() {
   const [pontuacoes, setPontuacoes] = useState<Pontuacao[]>([]);
 
   useEffect(() => {
