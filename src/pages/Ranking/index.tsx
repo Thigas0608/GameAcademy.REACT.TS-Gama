@@ -4,6 +4,7 @@ import { ContainerBody, ContainerConteudo } from "./style";
 import { Title } from "../../components/Titles/style";
 import axios from "axios";
 import { useState, useEffect } from "react";
+import RankingTabelaGeral from "../../components/RankingTabelaGeral";
 
 interface Jogador {
   id: number;
@@ -51,8 +52,8 @@ export default function Ranking() {
       <ContainerBody>
         <SideBar />
         <ContainerConteudo>
-          <Title> RANKING </Title>
-          <RankingTabela />
+          <Title> Ranking geral </Title>
+          <RankingTabelaGeral />
         </ContainerConteudo>
       </ContainerBody>
       <Footer />
