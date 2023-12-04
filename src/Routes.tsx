@@ -4,7 +4,6 @@ import Players from "./pages/Players";
 import Ranking from "./pages/Ranking";
 import Teste from "./pages/Teste";
 import Page404 from "./pages/Page404";
-import Game from "./pages/Game";
 import AboutTheGame from "./pages/AboutTheGame";
 
 // Configuração das rotas da aplicação
@@ -19,12 +18,8 @@ export default function Routes() {
       element: <Ranking />,
     },
     {
-      path: "/players",
+      path: "/jogadores",
       element: <Players />,
-    },
-    {
-      path: "/jogo",
-      element: <Game />
     },
     {
       path: "/teste",
@@ -35,7 +30,7 @@ export default function Routes() {
       element: <Page404 />
     },
     {
-      path: "/aboutTheGame",
+      path: "/jogo",
       element: <AboutTheGame />
     }
 
