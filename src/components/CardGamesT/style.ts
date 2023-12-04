@@ -5,13 +5,13 @@ export const Container = styled.div`
         border-radius: 8px;
         text-align: center;
         background-color: #fff;
-        width: 260px;
+        width: 283px;
         height: auto;
         border-radius: 8px;
 
         img{
-            width: 253px;
-            height: auto;
+            width: 275px;
+            height: 333px;
             padding: 3px;
             border-radius: 10px;
         }

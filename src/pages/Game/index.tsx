@@ -8,9 +8,9 @@ import {
   ContainerConteudo,
 } from "./style";
 import { Title } from "../../components/Titles/style";
-import axios from "axios";
-import { useState, useEffect } from "react";
 import { CardGamesT } from "../../components/CardGamesT";
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 interface Game {
   id: number;
@@ -21,7 +21,7 @@ interface Game {
   descricao: string;
 }
 
-export default function Games() {
+export default function Game() {
   const [games, setGames] = useState<Game[]>([]);
 
   useEffect(() => {
@@ -43,15 +43,11 @@ export default function Games() {
         <SideBar />
         <ContainerConteudo>
           <SectionPesquisaTitulo>
-            <Title> JOGOS </Title>
-            <div>
-              <input type="text" />
-            </div>
+           
           </SectionPesquisaTitulo>
+
           <SectionCards>
-            {games.map((game) => (
-              <CardGamesT key={game.id} imagem={game.imagem} id={game.id} />
-            ))}
+          
           </SectionCards>
         </ContainerConteudo>
       </ContainerBody>
