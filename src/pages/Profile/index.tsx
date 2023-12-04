@@ -45,18 +45,6 @@ export default function Profile() {
                             <img src={imagem[0]} alt="Imagem do jogador" />
                             <p>Pontos: 1000</p>
                         </Games>
-                        <Games>
-                            <img src={imagem[0]} alt="Imagem do jogador" />
-                            <p>Pontos: 1000</p>
-                        </Games>
-                        <Games>
-                            <img src={imagem[0]} alt="Imagem do jogador" />
-                            <p>Pontos: 1000</p>
-                        </Games>
-                        <Games>
-                            <img src={imagem[0]} alt="Imagem do jogador" />
-                            <p>Pontos: 1000</p>
-                        </Games>
                     </ContainerGames>
                 </ContainerConteudo>
             </ContainerBody>

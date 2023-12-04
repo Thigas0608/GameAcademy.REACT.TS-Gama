@@ -1,17 +1,5 @@
 import styled from "styled-components";
 
-export const ContainerBody = styled.div`
-    display: flex;
-`
-
-export const ContainerConteudo = styled.div`
-    display: flex;
-    padding: 58px;
-    width: 70%;
-    height: 100%;
-    margin-left: 25%;
-    gap: 50px;
-`
 export const ContainerImage = styled.div`
     img{
         width: 400px;
@@ -33,4 +21,3 @@ export const Containertext = styled.div`
         color: #31A6E8;
     }
 `
-
