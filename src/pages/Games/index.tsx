@@ -1,4 +1,3 @@
-import { CardGames } from "../../components/CardGames";
 import SideBar from "../../components/SideBar";
 import { Footer } from "../../components/Footer";
 import {
