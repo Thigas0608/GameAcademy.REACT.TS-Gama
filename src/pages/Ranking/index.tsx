@@ -2,7 +2,6 @@ import { Footer } from "../../components/Footer";
 import SideBar from "../../components/SideBar";
 import { ContainerBody, ContainerConteudo } from "./style";
 import { Title } from "../../components/Titles/style";
-import RankingTabela from "../../components/RankingTabela";
 import axios from "axios";
 import { useState, useEffect } from "react";
 
