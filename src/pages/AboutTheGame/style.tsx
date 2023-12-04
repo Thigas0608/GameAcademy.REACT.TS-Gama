@@ -7,7 +7,7 @@ export const ContainerBody = styled.div`
 export const ContainerConteudo = styled.div`
     display: flex;
     padding: 58px;
-    width: 70%;
+    width: 80%;
     height: 100%;
     margin-left: 25%;
     gap: 50px;

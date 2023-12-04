@@ -6,7 +6,7 @@ export const ContainerBody = styled.div`
 
 export const ContainerConteudo = styled.div`
     padding: 58px;
-    width: 70%;
+    width: 80%;
     height: 100%;
     margin-left: 25%;
     gap: 50px;
@@ -23,7 +23,7 @@ export const ContainerPlayer = styled.div`
     gap: 40px;
 
     p,span{
-        font-size: 20px;
+        font-size: 15px;
     }
 
     p{
@@ -41,25 +41,30 @@ export const ContainerPlayer = styled.div`
     }
 `
 
+export const Texto = styled.div`
+    margin: 10px 0px;
+`
+
 export const ContainerPlayerInformation = styled.div`
 
 `
 
 export const ContainerGames = styled.div`
     display: flex;
-    gap: 10px;
+    gap: 30px;
+    flex-wrap: wrap;
 `
 export const Games = styled.div`
-    background-color: #fff;
+    background-color: #ADB3D6;
     color: black;
     height: auto;
-    width: 101px;
+    width: 130px;
     border-radius: 10px;
     text-align: center;
     padding: 2px;
 
     img{
-        width: auto;
+        width: 100%;
         height: 125px;
         border-radius: 10px;
     }

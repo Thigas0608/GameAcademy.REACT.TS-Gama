@@ -16,7 +16,6 @@ export const SectionCards = styled.section`
     display: flex;
     gap: 30px;
     justify-content: space-around;
-    display: flex;
     flex-wrap: wrap;
 `
 export const ContainerBody = styled.div`
@@ -25,6 +24,6 @@ export const ContainerBody = styled.div`
 
 export const ContainerConteudo = styled.div`
     padding: 60px;
-    width: 70%;
+    width: 80%;
     margin-left: 25%;
 `

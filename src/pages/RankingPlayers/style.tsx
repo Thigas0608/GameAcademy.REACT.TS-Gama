@@ -6,6 +6,6 @@ export const ContainerBody = styled.div`
 
 export const ContainerConteudo = styled.div`
     padding: 60px;
-    width: 70%;
+    width: 80%;
     margin-left: 25%;
 `

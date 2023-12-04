@@ -42,7 +42,7 @@ export default function Games() {
         <SideBar />
         <ContainerConteudo>
           <SectionPesquisaTitulo>
-            <Title> JOGOS </Title>
+            <Title> Jogos </Title>
             <div>
               <input type="text" />
             </div>

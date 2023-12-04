@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 25%;
+    width: 20%;
     height: 1000px;
     background-color: #050033;
     position: fixed;
     text-align: center;
-    
+
+    margin: 0px;
+    padding: 0px;
 
     img{
         width: 182px;

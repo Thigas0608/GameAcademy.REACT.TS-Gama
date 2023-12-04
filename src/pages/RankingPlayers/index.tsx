@@ -9,7 +9,7 @@ export default function RankingPlayers() {
             <ContainerBody>
                 <SideBar />
                 <ContainerConteudo>
-                    <Title> JOGADORES </Title>
+                    <Title> Ranking Jogadores </Title>
                 </ContainerConteudo>
             </ContainerBody>
             <Footer />

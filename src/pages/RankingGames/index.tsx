@@ -52,7 +52,7 @@ export default function RankingGames() {
       <ContainerBody>
         <SideBar />
         <ContainerConteudo>
-          <Title> Ranking geral </Title>
+          <Title> Ranking jogos </Title>
           <RankingTabelaGeral />
         </ContainerConteudo>
       </ContainerBody>
