@@ -10,9 +10,9 @@ export function Header() {
                     <img src={Logo} alt="" />
                 </Link>
                 <nav>
-                    <Link to="/">Jogos</Link>
-                    <Link to="/rank">Rank</Link>
-                    <Link to="/perfil">Perfil</Link>
+                    <Link to="/">JOGOS</Link>
+                    <Link to="/ranking">RANKING</Link>
+                    <Link to="/players">JOGADORES</Link>
                 </nav>
             </Container>
         </>

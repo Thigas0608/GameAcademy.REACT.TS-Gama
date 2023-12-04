@@ -11,6 +11,8 @@ export const Button = styled.button`
 
     &:hover{
         background-color: #0d1e7e;
+        transition: 0.8s;
+        cursor: pointer;
     }
 `
 

@@ -18,6 +18,7 @@ export const Container = styled.div`
     }
 
     section:hover{
-        box-shadow: 0px 0px 15px #fff;
+        box-shadow: 0px 0px 3px #fff;
+        transition: 0.8;
     }
 `

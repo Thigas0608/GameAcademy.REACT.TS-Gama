@@ -28,10 +28,6 @@ export const Menu = styled.nav`
             padding: 10px 45px;
             border: 1px solid #0f0f3e;
 
-            &:hover{
-                background-color: #3030f8;
-            }
-
             svg{
                 padding: 0px 20px 0px 0px;
                 height: 27px;
@@ -42,10 +38,11 @@ export const Menu = styled.nav`
                 font-size: 20px;
                 color: #fff;
                 text-decoration: none;
+                cursor: pointer;
 
                 &:hover{
-                    transition: 0.5;
-                    color: #000000;
+                    color: #3030f8;
+                    transition: 1s;
                 }
             }
         } 
