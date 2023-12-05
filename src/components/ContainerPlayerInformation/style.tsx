@@ -1,23 +1,5 @@
 import styled from "styled-components";
 
-export const ContainerBody = styled.div`
-    display: flex;
-`
-
-export const ContainerConteudo = styled.div`
-    padding: 58px;
-    width: 80%;
-    height: 100%;
-    margin-left: 25%;
-    gap: 50px;
-
-    span{
-        font-size: 20px;
-        color: #31A6E8;
-        padding-bottom: 20px;
-    }
-`
-
 export const ContainerPlayer = styled.div`
     display: flex;
     gap: 40px;
@@ -40,11 +22,6 @@ export const ContainerPlayer = styled.div`
         border-radius: 10px;
     }
 `
-
-export const Texto = styled.div`
-    margin: 10px 0px;
-`
-
 export const ContainerPlayerInformation = styled.div`
 
 `

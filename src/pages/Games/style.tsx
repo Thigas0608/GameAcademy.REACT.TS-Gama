@@ -15,7 +15,6 @@ export const SectionPesquisaTitulo = styled.section`
 export const SectionCards = styled.section`
     display: flex;
     gap: 30px;
-    justify-content: space-around;
     flex-wrap: wrap;
 `
 export const ContainerBody = styled.div`

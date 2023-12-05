@@ -1,4 +1,3 @@
-import { Button } from '../Button/style'
 import { Container } from './style'
 
 const imagem = [
@@ -13,7 +12,6 @@ export function CardGameIntern() {
                     <img src={imagem[0]} />
                     <p>Pontos:</p>
                 </section>
-                
             </Container>
         </>
     )

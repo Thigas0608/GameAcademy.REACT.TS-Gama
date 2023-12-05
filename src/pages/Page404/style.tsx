@@ -12,11 +12,11 @@ export const Body = styled.body`
     }
 
     h2{
-        margin-top: 50px;
+        margin-top: 10px;
     }
 
     span{
-        font-size: 300px;
+        font-size: 220px;
         font-weight: bold;
     }
 `
