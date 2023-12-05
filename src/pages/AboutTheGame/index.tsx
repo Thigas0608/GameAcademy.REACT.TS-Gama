@@ -1,11 +1,12 @@
 import { Footer } from "../../components/Footer"
 import SideBar from "../../components/SideBar"
 import ContainerConteudoGame from "../../components/ContainerConteudoGame"
-import { ContainerBody, ContainerConteudo } from "./style"
+import { ContainerBody, ContainerConteudo, } from "./style"
 import axios from "axios"
 import { useState, useEffect } from "react"
 import { Link, useParams } from "react-router-dom"
 import RankingTabelaJogo from "../../components/RankingTabelaJogo"
+import { Title } from "../../components/Titles/style"
 
 interface Game {
     id: number;
@@ -70,10 +71,10 @@ export default function AboutTheGame() {
                         autor={game.autor}
                         website={game.website}
                     />
+                    <h1>Ranking do Jogo:</h1>
+                    <RankingTabelaJogo />
                 </ContainerConteudo>
-                <RankingTabelaJogo />
             </ContainerBody>
-
             <Footer />
         </>
     )

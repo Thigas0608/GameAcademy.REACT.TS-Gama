@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerTabela = styled.div`
-    margin: 50px;
-    max-width:100%
+    max-width:100%;
     display: flex;
     justify-content:center;
     padding: 0px px;
@@ -18,8 +17,6 @@ export const Info = styled.section`
 
 td, th {
   text-align: center;
-  
- 
 }
 
 th{

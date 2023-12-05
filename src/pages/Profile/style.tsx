@@ -20,7 +20,8 @@ export const ContainerConteudo = styled.div`
 
 export const ContainerPlayer = styled.div`
     display: flex;
-    gap: 40px;
+    gap: 30px;
+    flex-wrap: wrap;
 
     p,span{
         font-size: 15px;
@@ -47,4 +48,9 @@ export const Texto = styled.div`
 
 export const ContainerPlayerInformation = styled.div`
 
+`
+export const Container = styled.div`
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
 `

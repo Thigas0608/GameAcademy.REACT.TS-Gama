@@ -5,7 +5,6 @@ export const ContainerBody = styled.div`
 `
 
 export const ContainerConteudo = styled.div`
-    display: flex;
     padding: 58px;
     width: 80%;
     height: 100%;

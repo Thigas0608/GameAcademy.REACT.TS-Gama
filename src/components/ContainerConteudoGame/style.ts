@@ -21,3 +21,8 @@ export const Containertext = styled.div`
         color: #31A6E8;
     }
 `
+
+export const Container = styled.div`
+    display: flex;
+    gap: 30px;
+`

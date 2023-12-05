@@ -3,7 +3,7 @@ import ContainerGamesCard from "../../components/ContainerGamesCard"
 import { Footer } from "../../components/Footer"
 import SideBar from "../../components/SideBar"
 import { Title } from "../../components/Titles/style";
-import { ContainerBody, ContainerConteudo, ContainerPlayerInformation, Texto } from "./style"
+import { Container, ContainerBody, ContainerConteudo, ContainerPlayerInformation, Texto } from "./style"
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -77,15 +77,17 @@ export default function Profile() {
                     <Texto>
                         <span>Ranking Jogador:</span>
                     </Texto>
-                    {pontuacoes.map((ranking) => (
-                        <ContainerGamesCard
-                            key={ranking.id}
-                            id={ranking.id}
-                            imagem={ranking.jogo.imagem}
-                            pontos={ranking.pontos}
-                        />
-                    ))}
 
+                    <Container>
+                        {pontuacoes.map((ranking) => (
+                            <ContainerGamesCard
+                                key={ranking.id}
+                                id={ranking.id}
+                                imagem={ranking.jogo.imagem}
+                                pontos={ranking.pontos}
+                            />
+                        ))}
+                    </Container>
                 </ContainerConteudo>
             </ContainerBody >
             <Footer />
