@@ -78,7 +78,9 @@ export default function RankingTabelaGeral() {
                                     <td align="right">{ranking.pontos}</td>
                                     <PosicaoBotao>
                                         <td>
-                                            <BotaoTabela>Ver mais</BotaoTabela>
+                                            <Link to={`/perfil/${ranking.jogador.id}`}>
+                                                <BotaoTabela>Ver mais</BotaoTabela>
+                                            </Link>
                                         </td>
                                     </PosicaoBotao>
                                 </tr>

@@ -35,7 +35,7 @@ export default function Routes() {
       element: <AboutTheGame />
     },
     {
-      path: "/perfil",
+      path: "/perfil/:id",
       element: <Profile />
     }
 
