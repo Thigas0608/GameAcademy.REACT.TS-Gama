@@ -1,21 +1,32 @@
 import { ContainerImage, Containertext } from "./style"
 
-const imagem = ['https://upload.wikimedia.org/wikipedia/pt/thumb/8/82/God_of_War_2018_capa.png/405px-God_of_War_2018_capa.png']
+interface GameProps {
+    id: number;
+    nome: string;
+    autor: string;
+    website: string;
+    imagem: string;
+    descricao: string;
+    pontuacao: number;
+    nomePlayer: string;
+}
 
-export default function ContainerConteudoGame() {
+export default function ContainerConteudoGame({ id, nome, autor, website, imagem, descricao, pontuacao, nomePlayer }: GameProps) {
     return (
         <>
             <ContainerImage>
-                <img src={imagem[0]} alt="Imagem do Jogo" />
+                <img src={imagem} alt="Imagem do Jogo" />
             </ContainerImage>
             <Containertext>
-                <h1>God of War Ragnarök</h1>
+                <h1>{nome}</h1>
                 <span>SOBRE:</span>
-                <p>God of War: Ragnarok, se passa três anos após o evento do jogo de 2018, com Atreus um pouco mais velho enquanto tenta entender suas origens e a importância de seu nome de batismo — Loki. A busca por respostas vai desencadear no auge do Ragnarok, o fim dos tempos Nórdicos.</p>
-                <span>LANÇAMENTO:</span>
-                <p>9 de novembro de 2022</p>
+                <p>{descricao}</p>
+                <span>MAIOR PONTUAÇÃO:</span>
+                <p>{pontuacao}</p>
+                <span>MELHOR JOGADOR: </span>
+                <p>{nomePlayer}</p>
                 <span>DESENVOLVEDOR:</span>
-                <p>Santa Monica Studio</p>
+                <p>{autor}</p>
             </Containertext>
         </>
     )
