@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContainerImage = styled.div`
     img{
         width: 400px;
-        height: 420px;
+        height: 555px;
         box-shadow: 0px 0px 10px #fff;
         border-radius: 10px;
     }

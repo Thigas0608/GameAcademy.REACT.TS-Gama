@@ -7,11 +7,9 @@ interface GameProps {
     website: string;
     imagem: string;
     descricao: string;
-    pontuacao: number;
-    nomePlayer: string;
 }
 
-export default function ContainerConteudoGame({ id, nome, autor, website, imagem, descricao, pontuacao, nomePlayer }: GameProps) {
+export default function ContainerConteudoGame({ nome, autor, website, imagem, descricao }: GameProps) {
     return (
         <>
             <ContainerImage>
@@ -21,12 +19,10 @@ export default function ContainerConteudoGame({ id, nome, autor, website, imagem
                 <h1>{nome}</h1>
                 <span>SOBRE:</span>
                 <p>{descricao}</p>
-                <span>MAIOR PONTUAÇÃO:</span>
-                <p>{pontuacao}</p>
-                <span>MELHOR JOGADOR: </span>
-                <p>{nomePlayer}</p>
                 <span>DESENVOLVEDOR:</span>
                 <p>{autor}</p>
+                <span>WEBSITE: </span>
+                <p>{website}</p>
             </Containertext>
         </>
     )

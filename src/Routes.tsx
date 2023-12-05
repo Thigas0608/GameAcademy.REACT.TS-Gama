@@ -31,7 +31,7 @@ export default function Routes() {
       element: <Page404 />
     },
     {
-      path: "/jogo",
+      path: "/jogo/:id",
       element: <AboutTheGame />
     },
     {
