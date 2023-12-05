@@ -5,6 +5,7 @@ import { ContainerBody, ContainerConteudo } from "./style"
 import axios from "axios"
 import { useState, useEffect } from "react"
 import { Link, useParams } from "react-router-dom"
+import RankingTabelaJogo from "../../components/RankingTabelaJogo"
 
 interface Game {
     id: number;
@@ -70,7 +71,9 @@ export default function AboutTheGame() {
                         website={game.website}
                     />
                 </ContainerConteudo>
+                <RankingTabelaJogo />
             </ContainerBody>
+
             <Footer />
         </>
     )
