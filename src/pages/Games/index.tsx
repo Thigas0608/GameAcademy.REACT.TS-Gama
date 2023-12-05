@@ -43,9 +43,6 @@ export default function Games() {
         <ContainerConteudo>
           <SectionPesquisaTitulo>
             <Title> Jogos </Title>
-            <div>
-              <input type="text" />
-            </div>
           </SectionPesquisaTitulo>
           <SectionCards>
             {games.map((game) => (

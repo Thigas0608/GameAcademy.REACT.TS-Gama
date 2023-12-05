@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const SectionPesquisaTitulo = styled.section`
         text-align: center;
 
-
     input{
         width: 90%;
         height: 40px;
@@ -25,4 +24,8 @@ export const ContainerConteudo = styled.div`
     padding: 60px;
     width: 80%;
     margin-left: 25%;
+`
+
+export const Title = styled.div`
+    
 `
